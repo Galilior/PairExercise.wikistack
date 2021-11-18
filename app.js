@@ -26,8 +26,7 @@ db.authenticate()
   })
 
 app.get('/', (req, res)=> {
-    //res.send('happy birthday');
-    res.send(layout(''))
+    res.redirect('/wiki')
 })
 
 const PORT = 3000;
